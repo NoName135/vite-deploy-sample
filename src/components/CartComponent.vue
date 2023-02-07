@@ -9,7 +9,6 @@
           <td width="100">
             <a href="#" class="text-dark">
               <font-awesome-icon :icon="['fas', 'times']" @click.prevent="removeCartItem(cart.id)" />
-              <!-- <i class="fas fa-times" @click.prevent="removeCartItem(cart.id)"></i> -->
             </a>
           </td>
           <td width="100">
