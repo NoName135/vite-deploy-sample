@@ -1,0 +1,1 @@
+import{_ as t,c,b as e,d as s,F as n,o as a,r}from"./index-2e629c64.js";const _={},l=e("h2",null,"命名視圖",-1),d={class:"row"},i={class:"col-6"},m={class:"col-6"};function f(h,u){const o=r("router-view");return a(),c(n,null,[l,e("div",d,[e("div",i,[s(o,{name:"left"})]),e("div",m,[s(o,{name:"right"})])])],64)}const v=t(_,[["render",f]]);export{v as default};

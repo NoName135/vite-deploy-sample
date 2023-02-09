@@ -1,0 +1,1 @@
+import{_ as o,e as r,c as a,t as n,o as i}from"./index-2e629c64.js";const c={data(){return{id:this.$route.params.id}},created(){console.log("props",this.id);const e=this.id;r.get(`https://randomuser.me/api/?seed=${e}`).then(s=>{console.log(s)})}};function d(e,s,p,l,t,u){return i(),a("div",null,"id："+n(t.id),1)}const m=o(c,[["render",d]]);export{m as default};
